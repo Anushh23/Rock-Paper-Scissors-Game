@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- font-family: 'Cinzel', serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <!-- font-family: 'Courgette', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Courgette&display=swap" rel="stylesheet">
+    <!-- Confetti JS -->
+    <script src="confetti-js-master/src/confetti.js"></script>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Javascript file -->
+    <script src="index.js"></script>
+    
+    
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class=" sticky-top d-flex justify-content-center align-items-center container-fluid" id="nav1">
+            <h2 class="text-center">ROCK PAPER SCISSORS</h2>
+    </header>
+    <!-- Scoreboard -->
+    <center class="my-2 my-lg-3">
+    <div class="container " id="n1">
+        <table class="table table-borderless" id="scoreboard">
+            <thead>
+                <tr class="text-center">
+                    <th>Player</th>
+                    <th>Computer</th>
+                  </tr>
+            </thead>
+          <tbody>
+          <tr class="text-center">
+              <td id="player1">0</td>
+              <td id="computer1">0</td>  
+          </tr>
+          </tbody>
+    </table>
+    </div>
+    </center> 
+    <!-- Moves Left/display -->
+    <center>
+        <div class="container">
+             <p id="demo">Choose your move!</p> 
+             <p id="demo1">Moves Left: 10</p>
+        </div>
+    </center>
+    <!-- Rock Paper Scissors -->
+    <div class="container my-4 my-lg-5" id="n3">
+        <div class="row">
+            <div class="col-4 text-center">
+        <button type="button" class="btn" id="brock" onclick="Clicked('rock')">
+            <i class="fas fa-hand-rock fa-3x"></i>
+        </button>
+        <br><span class="a1">Rock</span>
+        </div>
+        <div class="col-4 text-center">
+        <button type="button" class="btn" id="bpaper" onclick="Clicked('paper')">
+            <i class="fas fa-hand-paper fa-3x "></i>
+        </button> <br><span class="a1">Paper</span>
+    </div>
+        <div class="col-4 text-center">
+        <button type="button" class="btn " id="bscissor" onclick="Clicked('scissors')">
+            <i class="fas fa-hand-scissors fa-3x"></i>
+        </button><br><span class="a1">Scissors</span></div>
+        </div>
+    </div>
+    <!-- Start/Restart Button -->
+    <div class="container text-center">
+        <button class="btn" type="button" onclick="myFunction()" id="n5" >START</button>
+    </div>
+    <!-- Footer -->
+    <div class="footer sticky-bottom text-center align-items-center mb-0 container-fluid" id="footer1">
+          <div class="text-center">
+        <span>&#169; </span>      
+          <script>
+              document.write(new Date().getFullYear());
+          </script>
+          <span> Anushka Garg</span> 
+          </div>
+    </div>
+</body>
+</html>

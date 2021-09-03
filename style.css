@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 7, 41);
+    /* min-height: 95vh; */
+    /* text-shadow: 0 0 1rem rgba(0,0,0,0); */
+}
+#nav1{
+    background-color:aliceblue;
+    min-height: 7vh;
+    color: rgb(22, 22, 83);
+}
+#nav1 h2{
+    color: rgb(22, 22, 83);
+    font-family: 'Cinzel', serif; 
+    /* font-family: 'Courgette', cursive; */
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+}
+#n1{
+    border: 2px solid white;
+    border-radius: 4%;
+    color: whitesmoke;
+    max-width: 280px;
+}
+#scoreboard{
+    color: white;
+}
+#n3{
+    max-width: 400px;
+}
+/* .btn{
+    border:2px solid whitesmoke;
+    border-radius: 50%;
+} */
+.btn:hover{
+    background-color: rgb(10, 10, 75);
+}
+#brock, #bpaper, #bscissor{
+    color:rgb(235, 208, 160);
+    border:2px solid whitesmoke;
+    border-radius: 50%;
+}
+.a1{
+    color:whitesmoke;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+#footer1{
+    padding: 1.5vh;
+    position: absolute;
+    bottom: 0;
+    background-color: aliceblue;
+    min-width: 5vh;
+    color: rgb(22, 22, 83);
+    font-weight: bold;
+}
+#n5{
+    color: white;
+    border: 2px solid whitesmoke;
+}
+#demo{
+    font-size:20px;
+    font-weight: bold;
+    font-family:cursive;
+    visibility: hidden;
+    color: white;
+}
+#demo1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Courgette;
+    color: white;
+    visibility: hidden;
+}
